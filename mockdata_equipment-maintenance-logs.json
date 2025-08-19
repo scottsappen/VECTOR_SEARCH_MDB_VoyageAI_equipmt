@@ -1,0 +1,301 @@
+[
+  {
+    "record_id": "MNT-2024-0001",
+    "equipment_id": "VT-01",
+    "equipment_type": "Ventilator Pro",
+    "location": "ICU-205",
+    "service_date": "2024-08-15T09:30:00Z",
+    "technician": {
+      "id": "TECH-003",
+      "name": "Sarah Martinez",
+      "certification": "Biomedical Equipment Specialist Level II"
+    },
+    "service_type": "Corrective Maintenance",
+    "reported_issue": "Intermittent alarm system malfunction during patient ventilation",
+    "diagnostic_findings": "Faulty pressure sensor causing inconsistent alarm triggers",
+    "actions_taken": "Replaced main pressure sensor, recalibrated alarm sensitivity, performed comprehensive system diagnostic",
+    "parts_replaced": [
+      {
+        "part_number": "VS-PS-2401",
+        "description": "Pressure Sensor Module",
+        "quantity": 1
+      }
+    ],
+    "post_service_notes": "System now functioning within normal parameters. Recommend 30-day follow-up monitoring.",
+    "recurring_issue": true,
+    "related_incidents": ["MNT-2024-0037"],
+    "follow_up_required": true,
+    "follow_up_date": "2024-09-15",
+    "service_duration_minutes": 95,
+    "machine_uptime_percentage_last_30_days": 87.5,
+    "severity_level": "High"
+  },
+  {
+    "record_id": "MNT-2024-0002",
+    "equipment_id": "IP-01",
+    "equipment_type": "Infusion Pump B",
+    "location": "ER-108",
+    "service_date": "2024-07-22T14:45:00Z",
+    "technician": {
+      "id": "TECH-001",
+      "name": "Michael Chen",
+      "certification": "Certified Clinical Engineering Technician"
+    },
+    "service_type": "Preventive Maintenance",
+    "reported_issue": "Routine scheduled maintenance and calibration",
+    "diagnostic_findings": "Minor wear on primary pump mechanism, battery backup at 92% capacity",
+    "actions_taken": "Lubricated pump mechanism, replaced battery backup unit, updated firmware",
+    "parts_replaced": [
+      {
+        "part_number": "IP-BAT-1102",
+        "description": "Battery Backup Unit",
+        "quantity": 1
+      }
+    ],
+    "post_service_notes": "Device returned to full operational status. No immediate concerns.",
+    "recurring_issue": false,
+    "related_incidents": [],
+    "follow_up_required": false,
+    "follow_up_date": null,
+    "service_duration_minutes": 60,
+    "machine_uptime_percentage_last_30_days": 99.2,
+    "severity_level": "Low"
+  },
+  {
+    "record_id": "MNT-2024-0003",
+    "equipment_id": "MRI-01",
+    "equipment_type": "MRI Model X",
+    "location": "ICU-212",
+    "service_date": "2024-09-05T11:15:00Z",
+    "technician": {
+      "id": "TECH-005",
+      "name": "Elena Rodriguez",
+      "certification": "Advanced Imaging Systems Specialist"
+    },
+    "service_type": "Corrective Maintenance",
+    "reported_issue": "Gradient coil temperature instability during imaging sequence",
+    "diagnostic_findings": "Cooling system malfunction causing potential image quality degradation",
+    "actions_taken": "Replaced cooling system components, recalibrated gradient coil temperature monitoring, ran comprehensive system diagnostic",
+    "parts_replaced": [
+      {
+        "part_number": "MRI-COOL-3301",
+        "description": "Cooling System Module",
+        "quantity": 1
+      },
+      {
+        "part_number": "MRI-TEMP-2202",
+        "description": "Temperature Sensor Array",
+        "quantity": 1
+      }
+    ],
+    "post_service_notes": "System performance stabilized. Recommend continuous monitoring for any recurring thermal issues.",
+    "recurring_issue": true,
+    "related_incidents": [
+      "MNT-2024-0052"
+    ],
+    "follow_up_required": true,
+    "follow_up_date": "2024-10-05",
+    "service_duration_minutes": 120,
+    "machine_uptime_percentage_last_30_days": 76.3,
+    "severity_level": "High"
+  },
+  {
+    "record_id": "MNT-2024-0004",
+    "equipment_id": "PM-01",
+    "equipment_type": "Patient Monitor P",
+    "location": "ER-102",
+    "service_date": "2024-06-18T08:00:00Z",
+    "technician": {
+      "id": "TECH-002",
+      "name": "David Thompson",
+      "certification": "Senior Medical Equipment Technician"
+    },
+    "service_type": "Preventive Maintenance",
+    "reported_issue": "Routine system check and calibration",
+    "diagnostic_findings": "Slight drift in ECG signal processing, battery performance within acceptable range",
+    "actions_taken": "Recalibrated ECG signal processing, updated monitoring software, performed comprehensive system check",
+    "parts_replaced": [],
+    "post_service_notes": "Monitor functioning optimally. No critical issues identified.",
+    "recurring_issue": false,
+    "related_incidents": [],
+    "follow_up_required": false,
+    "follow_up_date": null,
+    "service_duration_minutes": 45,
+    "machine_uptime_percentage_last_30_days": 99.7,
+    "severity_level": "Low"
+  },
+  {
+    "record_id": "MNT-2024-0005",
+    "equipment_id": "VT-02",
+    "equipment_type": "Ventilator X",
+    "location": "ICU-218",
+    "service_date": "2024-08-30T16:20:00Z",
+    "technician": {
+      "id": "TECH-004",
+      "name": "Rachel Kim",
+      "certification": "Respiratory Equipment Specialist"
+    },
+    "service_type": "Corrective Maintenance",
+    "reported_issue": "Inconsistent oxygen flow rate and pressure regulation",
+    "diagnostic_findings": "Primary control board showing signs of electrical degradation",
+    "actions_taken": "Replaced main control board, performed full system recalibration, tested oxygen flow parameters",
+    "parts_replaced": [
+      {
+        "part_number": "VT-CTL-4401",
+        "description": "Main Control Board",
+        "quantity": 1
+      }
+    ],
+    "post_service_notes": "Ventilator now showing stable oxygen delivery. Recommend close monitoring in critical care setting.",
+    "recurring_issue": true,
+    "related_incidents": [
+      "MNT-2024-0041"
+    ],
+    "follow_up_required": true,
+    "follow_up_date": "2024-09-30",
+    "service_duration_minutes": 110,
+    "machine_uptime_percentage_last_30_days": 82.6,
+    "severity_level": "High"
+  },
+  {
+    "record_id": "MNT-2024-0006",
+    "equipment_id": "CT-01",
+    "equipment_type": "CT Scanner Z",
+    "location": "ER-115",
+    "service_date": "2024-07-10T10:30:00Z",
+    "technician": {
+      "id": "TECH-005",
+      "name": "Elena Rodriguez",
+      "certification": "Advanced Imaging Systems Specialist"
+    },
+    "service_type": "Preventive Maintenance",
+    "reported_issue": "Scheduled comprehensive system check",
+    "diagnostic_findings": "Minor calibration drift in X-ray detector array, cooling system functioning normally",
+    "actions_taken": "Performed full system calibration, updated imaging software, cleaned and inspected detector array",
+    "parts_replaced": [],
+    "post_service_notes": "CT Scanner operating within manufacturer specifications. No immediate concerns.",
+    "recurring_issue": false,
+    "related_incidents": [],
+    "follow_up_required": false,
+    "follow_up_date": null,
+    "service_duration_minutes": 90,
+    "machine_uptime_percentage_last_30_days": 98.5,
+    "severity_level": "Low"
+  },
+  {
+    "record_id": "MNT-2024-0007",
+    "equipment_id": "IP-02",
+    "equipment_type": "Infusion Pump B2",
+    "location": "ICU-203",
+    "service_date": "2024-09-12T13:40:00Z",
+    "technician": {
+      "id": "TECH-001",
+      "name": "Michael Chen",
+      "certification": "Certified Clinical Engineering Technician"
+    },
+    "service_type": "Corrective Maintenance",
+    "reported_issue": "Inconsistent drug delivery rate and display malfunctions",
+    "diagnostic_findings": "Software glitch causing intermittent flow rate errors",
+    "actions_taken": "Performed complete software reset, updated firmware to latest version, recalibrated pump mechanisms",
+    "parts_replaced": [
+      {
+        "part_number": "IP-MCB-2301",
+        "description": "Main Control Board",
+        "quantity": 1
+      }
+    ],
+    "post_service_notes": "Pump now displaying stable drug delivery parameters. Recommend close monitoring.",
+    "recurring_issue": true,
+    "related_incidents": [
+      "MNT-2024-0032"
+    ],
+    "follow_up_required": true,
+    "follow_up_date": "2024-10-12",
+    "service_duration_minutes": 75,
+    "machine_uptime_percentage_last_30_days": 85.4,
+    "severity_level": "Medium"
+  },
+  {
+    "record_id": "MNT-2024-0008",
+    "equipment_id": "ECG-01",
+    "equipment_type": "ECG Monitor A",
+    "location": "ER-110",
+    "service_date": "2024-07-05T15:15:00Z",
+    "technician": {
+      "id": "TECH-002",
+      "name": "David Thompson",
+      "certification": "Senior Medical Equipment Technician"
+    },
+    "service_type": "Preventive Maintenance",
+    "reported_issue": "Routine system calibration and performance check",
+    "diagnostic_findings": "Minor signal processing inconsistencies detected",
+    "actions_taken": "Recalibrated signal processing algorithms, updated monitoring software, cleaned and inspected lead connections",
+    "parts_replaced": [],
+    "post_service_notes": "ECG Monitor functioning within optimal parameters. No critical issues found.",
+    "recurring_issue": false,
+    "related_incidents": [],
+    "follow_up_required": false,
+    "follow_up_date": null,
+    "service_duration_minutes": 50,
+    "machine_uptime_percentage_last_30_days": 99.5,
+    "severity_level": "Low"
+  },
+  {
+    "record_id": "MNT-2024-0009",
+    "equipment_id": "XR-01",
+    "equipment_type": "X-Ray 3000",
+    "location": "ER-107",
+    "service_date": "2024-08-22T11:50:00Z",
+    "technician": {
+      "id": "TECH-005",
+      "name": "Elena Rodriguez",
+      "certification": "Advanced Imaging Systems Specialist"
+    },
+    "service_type": "Corrective Maintenance",
+    "reported_issue": "Image quality degradation and inconsistent radiation exposure",
+    "diagnostic_findings": "Detector calibration drift and potential X-ray tube wear",
+    "actions_taken": "Replaced X-ray tube, recalibrated detector array, performed comprehensive radiation output test",
+    "parts_replaced": [
+      {
+        "part_number": "XR-TUBE-5501",
+        "description": "X-Ray Tube Assembly",
+        "quantity": 1
+      }
+    ],
+    "post_service_notes": "X-Ray system now producing consistent, high-quality imaging. Recommend 60-day follow-up inspection.",
+    "recurring_issue": true,
+    "related_incidents": [
+      "MNT-2024-0045"
+    ],
+    "follow_up_required": true,
+    "follow_up_date": "2024-10-22",
+    "service_duration_minutes": 135,
+    "machine_uptime_percentage_last_30_days": 79.8,
+    "severity_level": "High"
+  },
+  {
+    "record_id": "MNT-2024-0010",
+    "equipment_id": "AM-01",
+    "equipment_type": "Anesthesia Machine AM",
+    "location": "ICU-215",
+    "service_date": "2024-06-28T09:10:00Z",
+    "technician": {
+      "id": "TECH-004",
+      "name": "Rachel Kim",
+      "certification": "Respiratory Equipment Specialist"
+    },
+    "service_type": "Preventive Maintenance",
+    "reported_issue": "Routine system check and gas mixture calibration",
+    "diagnostic_findings": "Minor variations in gas flow regulators, overall system performance stable",
+    "actions_taken": "Cleaned and calibrated gas flow regulators, performed leak test, updated ventilation software",
+    "parts_replaced": [],
+    "post_service_notes": "Anesthesia Machine functioning within manufacturer specifications. No immediate concerns.",
+    "recurring_issue": false,
+    "related_incidents": [],
+    "follow_up_required": false,
+    "follow_up_date": null,
+    "service_duration_minutes": 65,
+    "machine_uptime_percentage_last_30_days": 99.3,
+    "severity_level": "Low"
+  }
+]
